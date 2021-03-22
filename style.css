@@ -1,0 +1,181 @@
+body {
+    margin: 0 auto;
+    background: #FFFFFF;
+    font-family: Roboto;
+    color: #151515;
+    letter-spacing: 0.03em;
+}
+
+/* Padrões */
+
+
+
+h1 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 34px;
+    font-weight: bold;
+    text-align: center;
+}
+
+h3 {
+    font-size: 18px;
+    font-weight: 300;
+}
+
+p {
+    font-size: 18px;
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 103px;
+}
+
+.textobotao {
+    padding: 10px;
+    border: 2px solid #14E9D5;
+    border-radius: 12px;
+    font-size: 14px;
+    text-decoration: none;
+    color: #18E5D5;
+}
+
+.textobotao:hover {
+    background-color: #14E9D5;
+    color: white;
+}
+
+
+
+/* cabeçalho */
+
+#header {
+
+    width: 1065px;
+    height: 105px;
+    margin: 0 auto 145px;
+}
+
+.logo {
+    width: 51px;
+    height: 48.24px;
+    margin: auto 0;
+    position: relative;
+    display: inline-block;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
+#textobotao1 {
+    float: right;
+    position: relative;
+    display: inline-block;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
+/* Inicio */
+
+#corpo {
+    width: 1065px;
+    margin: 0 auto;
+}
+
+#inicio {
+    margin-bottom: 165px;
+}
+
+#textosinicio {
+    display: inline-block;
+    width: 663px;
+    margin-bottom: 0;
+}
+
+#tituloinicio {
+    width: 663px;
+    margin-right: 0;
+}
+
+#legendainicio {
+    width: 663px;
+    text-align: justify;
+}
+
+#imageminicio {
+    float: right;
+    width: 211px;
+}
+
+/* Portfólio */
+
+.box {
+    display: inline-block;
+    width: 275px;
+    height: 256px;
+    background-color: grey;
+    border-radius: 12px;
+    margin-right: 116px;
+}
+
+#box3 {
+    margin: 0;
+    float: right;
+}
+
+#imagemportfolio {
+    margin-top: 100px;
+    margin-bottom: 80px;
+}
+
+#textobotao2 {
+    position: relative;
+    display: inline-block;
+    left: 50%;
+    transform: translate(-50%);
+    margin-bottom: 116px;
+}
+
+/* Habilidades */
+
+#habilidades {
+    margin-bottom: 154px;
+}
+
+#legendahabilidades {
+    text-align: center;
+}
+
+#habilidades1 {
+    width: 761px;
+    margin: 171px auto 0;
+}
+
+.boxhabilidades {
+    display: inline-block;
+}
+
+.boxhabilidades > ul {
+    display: inline-block;
+    font-weight: 14px;
+}
+
+#programacao {
+    float: right;
+}
+
+.imagemhabilidades {
+    width: 96px;
+    display: inline-block;
+}
+
+/* Rodapé */
+
+#rodape {
+    width: 100%;
+    margin: 0 auto;
+    height: 103px;
+    background: linear-gradient(90.27deg, #ED0CF7 -2.24%, #14E9D5 104.28%);
+}
