@@ -105,8 +105,10 @@ p {
 }
 
 #imageminicio {
+    position: relative;
+    bottom: 44px;
     float: right;
-    width: 211px;
+    width: 305px;
 }
 
 /* Portfólio */
