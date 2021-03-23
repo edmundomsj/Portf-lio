@@ -8,8 +8,6 @@ body {
 
 /* Padrões */
 
-
-
 h1 {
     font-size: 40px;
     font-weight: bold;
@@ -46,6 +44,7 @@ p {
 .textobotao:hover {
     background-color: #14E9D5;
     color: white;
+    transition: 600ms;
 }
 
 
@@ -113,13 +112,30 @@ p {
 
 /* Portfólio */
 
+#portfolio {
+    margin-bottom: 116px;
+}
+
+.imagem {
+    object-fit: contain;
+    width: 100%; /* or any custom size */
+    height: 100%; 
+    border-radius: 11px;
+}
+
 .box {
     display: inline-block;
     width: 275px;
     height: 256px;
     background-color: grey;
     border-radius: 12px;
-    margin-right: 116px;
+    margin-right: 110px;
+    border: solid 2px #cccccc;
+}
+
+.box:hover {
+    border: solid 2px #ED0CF7;
+    transition: 600ms;
 }
 
 #box3 {
@@ -137,7 +153,6 @@ p {
     display: inline-block;
     left: 50%;
     transform: translate(-50%);
-    margin-bottom: 116px;
 }
 
 /* Habilidades */
@@ -153,6 +168,7 @@ p {
 #habilidades1 {
     width: 761px;
     margin: 171px auto 0;
+    position: relative;
 }
 
 .boxhabilidades {
@@ -171,6 +187,7 @@ p {
 .imagemhabilidades {
     width: 96px;
     display: inline-block;
+    
 }
 
 /* Rodapé */
