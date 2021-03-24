@@ -160,7 +160,7 @@ p {
 }
 
 .box:hover {
-    border: solid 2px #ED0CF7;
+    border: solid 2px #0850E0;
     transition: 600ms;
 }
 
