@@ -76,7 +76,25 @@ p {
     transition: .5s;
 }
 
+.textonaobotao1 {
+    padding: 8px;
+    border:  2px;
+    border-radius: 12px;
+    font-size: 14px;
+    text-decoration: none;
+    color: #151515;
+    font-weight: bold;
+}
 
+
+.textonaobotao2 {
+    padding: 8px;
+    border:  2px;
+    border-radius: 12px;
+    font-size: 14px;
+    text-decoration: none;
+    color: #151515;
+}
 
 /* cabeçalho */
 
@@ -90,7 +108,6 @@ p {
 .logo {
     width: 51px;
     height: 48.24px;
-    margin: auto 0;
     position: relative;
     display: inline-block;
     top: 50%;
@@ -103,6 +120,7 @@ p {
     display: inline-block;
     top: 50%;
     transform: translate(0, -50%);
+    margin-left: 2%;
 }
 
 /* Inicio */
@@ -160,6 +178,7 @@ p {
     border-radius: 12px;
     margin-right: 110px;
     border: solid 2px #cccccc;
+    margin-bottom: 80px;
 }
 
 .box:hover {
@@ -174,7 +193,6 @@ p {
 
 #imagemportfolio {
     margin-top: 100px;
-    margin-bottom: 80px;
 }
 
 #textobotao2 {
@@ -202,6 +220,9 @@ p {
 
 .boxhabilidades {
     display: inline-block;
+    position: relative;
+    top: 50%;
+    transform: translate(0, -50%);
 }
 
 .boxhabilidades > ul {
@@ -213,9 +234,17 @@ p {
     float: right;
 }
 
+.boximg {
+    display: inline-block;
+    width: 96px;
+}
+
 .imagemhabilidades {
     width: 96px;
     display: inline-block;
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
     
 }
 
