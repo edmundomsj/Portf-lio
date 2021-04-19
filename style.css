@@ -1,28 +1,3 @@
-.col-1 {width: 8.33%;}
-.col-2 {width: 16.66%;}
-.col-3 {width: 25%;}
-.col-4 {width: 33.33%;}
-.col-5 {width: 41.66%;}
-.col-6 {width: 50%;}
-.col-7 {width: 58.33%;}
-.col-8 {width: 66.66%;}
-.col-9 {width: 75%;}
-.col-10 {width: 83.33%;}
-.col-11 {width: 91.66%;}
-.col-12 {width: 100%;}
-
-@media only screen and (max-width: 768px) {
-  [class*="col-"] {
-    width: 100%;
-  }
-
-
-  body {
-      background-color: blue;
-  }
-}
-
-
 body {
     margin: 0 auto;
     background: #FFFFFF;
@@ -254,5 +229,156 @@ p {
     width: 100%;
     margin: 0 auto;
     height: 103px;
-    background: linear-gradient(90.27deg, #042361 -4.35%, #0850E0 50%, #042361 104.35%);;
+    background: linear-gradient(90.27deg, #042361 -4.35%, #0850E0 50%, #042361 104.35%);
 }
+
+@media only screen and (max-width: 768px) {
+    [class*="col-"] {
+      width: 100%;
+    }
+
+    h1 {
+        font-size: 20px;
+        font-weight: bold;
+        text-align: center;
+    }
+    
+    h2 {
+        font-size: 20px;
+        font-weight: bold;
+        text-align: center;
+    }
+    
+    h3 {
+        font-size: 16px;
+        font-weight: 300;
+    }
+    
+    p {
+        font-size: 14px;
+        color: white;
+        text-align: center;
+        vertical-align: middle;
+        line-height: 55px;
+    }
+
+
+
+
+
+
+
+#header {
+      width: 100%;
+      
+  }
+
+.logo {
+width: 51px;
+height: 48.24px;
+position: relative;
+display: inline-block;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+}
+
+#textobotao1 {
+    display: none;
+}
+
+#corpo {
+    width: 100%;
+    margin: 0 auto;
+}
+
+#inicio {
+    margin-bottom: 165px;
+}
+
+#textosinicio {
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+}
+
+#tituloinicio {
+    width: 100%;
+    margin-right: 0;
+}
+
+#legendainicio {
+    width: 100%;
+    text-align: justify;
+}
+
+#imageminicio {
+    position: relative;
+    display: block;
+    left: 50%;
+    transform: translate(-50%);
+    bottom: none;
+    float: left;
+    margin: 0 auto;
+}
+
+.box {
+    position: relative;
+    display: block;
+    left: 50%;
+    transform: translate(-50%);
+    width: 275px;
+    height: 256px;
+    background-color: grey;
+    border-radius: 12px;
+    margin-right: 0;
+    border: solid 2px #cccccc;
+    margin-bottom: 80px;
+}
+
+.box:hover {
+    border: solid 2px #0850E0;
+    transition: 600ms;
+}
+
+#box3 {
+    margin: 0;
+    float: none;
+}
+
+#imagemportfolio {
+    margin-top: 100px;
+}
+
+#textobotao2 {
+    position: relative;
+    display: inline-block;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.boxhabilidades {
+    display: inline-block;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#programacao {
+    float: none;
+}
+
+#habilidades1 {
+    width: 100%;
+    margin: 171px auto 0;
+    position: relative;
+}
+
+#rodape {
+    height: 55px;
+}
+
+
+
+  }
