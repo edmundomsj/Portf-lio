@@ -30,7 +30,7 @@ h3 {
    
 p {
     margin: 0;
-    padding: 1em;
+    padding-bottom: 1em;
     font-size: 14px;
     color: white;
     text-align: center;
@@ -221,6 +221,12 @@ p {
     margin: 0 auto;
     height: 103px;
     background: linear-gradient(90.27deg, #042361 -4.35%, #0850E0 50%, #042361 104.35%);
+}
+
+#rodape2 {
+    position: relative;
+    top: 50%;
+    transform: translate(0, -50%);
 }
 
 #handtalk {
