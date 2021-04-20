@@ -116,7 +116,6 @@ p {
 
 #tituloinicio {
     width: 663px;
-    margin-right: 0;
 }
 
 #legendainicio {
@@ -228,50 +227,47 @@ p {
       width: 100%;
     }
     
-    body {
-        width: 100%;
-    }
+/* Padrões Mobile */
 
-    .espaco {
-        margin: 0 auto 75px;
-    }
+body {
+    width: 100%;
+}
 
-    h1 {
-        font-size: 20px;
-        font-weight: bold;
-        text-align: center;
-    }
+.espaco {
+    margin: 0 auto 75px;
+}
+
+h1 {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
     
-    h2 {
-        font-size: 20px;
-        font-weight: bold;
-        text-align: center;
-    }
+h2 {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
     
-    h3 {
-        font-size: 16px;
-        font-weight: 300;
-        width: 80%;
-        margin: 0 auto;
-    }
+h3 {
+    font-size: 16px;
+    font-weight: 300;
+    width: 300px;
+    margin: 0 auto;
+}
     
-    p {
-        font-size: 14px;
-        color: white;
-        text-align: center;
-        vertical-align: middle;
-        line-height: 55px;
-    }
+p {
+    font-size: 14px;
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 55px;
+}
 
-
-
-
-
-
+/* Cabeçalho Mobile */
 
 #header {
-      width: 100%;
-      
+      width: 100%; 
   }
 
 .logo {
@@ -288,10 +284,14 @@ transform: translate(-50%, -50%);
     display: none;
 }
 
+/* Estrutura de Body Mobile */
+
 #corpo {
     width: 100%;
     margin: 0 auto;
 }
+
+/* Inicio Mobile */
 
 #textosinicio {
     display: block;
@@ -300,8 +300,7 @@ transform: translate(-50%, -50%);
 }
 
 #tituloinicio {
-    width: 100%;
-    margin-right: 0;
+    width: 300px;
 }
 
 #legendainicio {
@@ -318,6 +317,8 @@ transform: translate(-50%, -50%);
     float: left;
     margin: 0 auto;
 }
+
+/* Portfolio Mobile */
 
 .box {
     position: relative;
@@ -348,11 +349,14 @@ transform: translate(-50%, -50%);
 }
 
 #textobotao2 {
+    margin-top: 50px;
     position: relative;
     display: inline-block;
     left: 50%;
     transform: translate(-50%);
 }
+
+/* Habilidades Mobile */
 
 .boxhabilidades {
     display: inline-block;
@@ -372,10 +376,11 @@ transform: translate(-50%, -50%);
     position: relative;
 }
 
+/* Rodapé Mobile*/
+
 #rodape {
     height: 55px;
+    background: #0850E0;
 }
 
-
-
-  }
+}
