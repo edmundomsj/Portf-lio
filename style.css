@@ -8,6 +8,10 @@ body {
 
 /* Padrões */
 
+.espaco {
+    margin: 0 auto 150px;
+}
+
 h1 {
     font-size: 40px;
     font-weight: bold;
@@ -77,7 +81,6 @@ p {
 
     width: 1065px;
     height: 105px;
-    margin: 0 auto 145px;
 }
 
 .logo {
@@ -105,10 +108,6 @@ p {
     margin: 0 auto;
 }
 
-#inicio {
-    margin-bottom: 165px;
-}
-
 #textosinicio {
     display: inline-block;
     width: 663px;
@@ -133,10 +132,6 @@ p {
 }
 
 /* Portfólio */
-
-#portfolio {
-    margin-bottom: 116px;
-}
 
 .imagem {
     object-fit: contain;
@@ -178,10 +173,6 @@ p {
 }
 
 /* Habilidades */
-
-#habilidades {
-    margin-bottom: 154px;
-}
 
 #legendahabilidades {
     text-align: center;
@@ -236,6 +227,14 @@ p {
     [class*="col-"] {
       width: 100%;
     }
+    
+    body {
+        width: 100%;
+    }
+
+    .espaco {
+        margin: 0 auto 75px;
+    }
 
     h1 {
         font-size: 20px;
@@ -252,6 +251,8 @@ p {
     h3 {
         font-size: 16px;
         font-weight: 300;
+        width: 80%;
+        margin: 0 auto;
     }
     
     p {
@@ -292,10 +293,6 @@ transform: translate(-50%, -50%);
     margin: 0 auto;
 }
 
-#inicio {
-    margin-bottom: 165px;
-}
-
 #textosinicio {
     display: block;
     width: 80%;
@@ -333,7 +330,7 @@ transform: translate(-50%, -50%);
     border-radius: 12px;
     margin-right: 0;
     border: solid 2px #cccccc;
-    margin-bottom: 80px;
+    margin-bottom: 25px;
 }
 
 .box:hover {
@@ -342,12 +339,12 @@ transform: translate(-50%, -50%);
 }
 
 #box3 {
-    margin: 0;
+    margin: 0 0 25px;
     float: none;
 }
 
 #imagemportfolio {
-    margin-top: 100px;
+    margin-top: 25px;
 }
 
 #textobotao2 {
@@ -371,7 +368,7 @@ transform: translate(-50%, -50%);
 
 #habilidades1 {
     width: 100%;
-    margin: 171px auto 0;
+    margin: 100px auto 0;
     position: relative;
 }
 
